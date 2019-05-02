@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+}
+
+.container {
+    margin: 1.5em auto;
+    width: 80vw;
+    background: #eee;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+header, section, main {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    margin: 0.5em;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+}
+
+#add-book input {
+    width: 20em;
+    margin: 1.5em 0;
+    padding: 0.6em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#add-book button {
+    border: 1px solid #1da9f9;
+    background-color: #1da9f9;
+    color: #fff;
+    padding: 0.55em 1.1em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:focus {
+    outline: none;
+}
+
+main ul li {
+    font-size: 1.5rem;
+}
