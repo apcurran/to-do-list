@@ -13,7 +13,7 @@ list.addEventListener("click", (event) => {
 const form = document.forms["add-item"];
 form.addEventListener("submit", (event) => {
     event.preventDefault();
-    
+
     const inputValue = form.querySelector('input[type="text"]').value;
     const li = document.createElement("li");
     const itemName = document.createElement("span");
