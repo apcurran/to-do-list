@@ -7,3 +7,24 @@ list.addEventListener("click", (event) => {
         list.removeChild(li);
     }
 });
+
+// Add item
+
+const form = document.forms["add-item"];
+form.addEventListener("submit", (event) => {
+    event.preventDefault();
+    const inputValue = form.querySelector('input[type="text"]').value;
+    
+    const li = document.createElement("li");
+    const itemName = document.createElement("span");
+    const deleteBtn = document.createElement("span");
+
+    itemName.textContent = inputValue;
+    itemName.className += "item";
+    deleteBtn.textContent = "delete";
+    deleteBtn.className += "delete";
+
+    li.appendChild(itemName);
+    li.appendChild(deleteBtn);
+    list.appendChild(li);
+});
