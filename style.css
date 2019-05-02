@@ -31,7 +31,7 @@ h1 {
 }
 
 #add-item input {
-    width: 20em;
+    width: 22em;
     margin: 1.5em 0;
     padding: 1em 2em;
     border: 1px solid #ccc;
@@ -60,7 +60,7 @@ button:focus {
 }
 
 .item-list {
-    width: 50%;
+    width: 40vw;
     margin: 0 auto;
 }
 
@@ -96,3 +96,41 @@ button:focus {
     opacity: 1;
 }
 
+@media screen and (max-width: 80em) {
+    .container {
+        width: 90vw;
+    }
+
+    .item-list {
+        width: 70vw;
+    }
+}
+
+
+@media screen and (max-width: 34em) {
+    .container {
+        width: 95vw;
+    }
+
+    .item-list {
+        width: 90vw;
+    }
+
+    * {
+        font-size: 1rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    #add-item input {
+        width: 10em;
+        margin: 0.5em 0;
+        padding: 0.5em 1em;
+    }
+
+    #add-item button {
+        padding: 0.5em 1em;
+    }
+}
