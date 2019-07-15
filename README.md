@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # To-do List
 
 [Link to Site](https://apcurran.github.io/to-do-list/)
@@ -12,3 +11,5 @@
 - Delete any item.
 
 - Flexbox used for responsive layout.
+
+- Mobile friendly
