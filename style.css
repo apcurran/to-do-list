@@ -13,12 +13,14 @@
     box-shadow: 0px 0px 4px 0px #ddd;
 }
 
-header, section {
+header,
+.section {
     display: flex;
     justify-content: center;
 }
 
-header, section {
+header,
+.section {
     background-color: #444;
 }
 
