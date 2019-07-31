@@ -13,3 +13,5 @@
 - Flexbox used for responsive layout.
 
 - Mobile friendly
+
+- Persistence with Local Storage
